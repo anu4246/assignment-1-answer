@@ -7,6 +7,7 @@ nav{
     margin-left: 154px;
     margin-right: 154px;
     background-color:  rgb(245, 245, 245);
+    max-height: 100px;
 }
 .fira-sans-medium {
     font-family: "Fira Sans", serif;
@@ -34,6 +35,64 @@ nav{
     text-align: left;
     fill: 1px	Inside
     rgb(0, 106, 80);
+  }
+  .banner{
+    background-color: #C6E4D6;
+    margin-left: 154px;
+    margin-right: 154px;
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+    max-height: 543px;
+    gap:64;
+    padding: 68px 90px 68px 90px;
+  }
+
+  .banner-top-text{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .banner-main-text{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 51px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .banner-image{
+    width: 455px;
+    height: 316.21px;
+    padding-bottom: 80px;
+  }
+
+  .banner-button{
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: static;
+    width: 260px;
+    height: 53px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 15px 30px 15px 30px;
+    border:none;
   }
 
   
