@@ -506,12 +506,13 @@ background: rgb(0, 106, 80);
   flex: 1;
   border:none;
   outline:none;
-  padding-left: 40;
+  padding: 28px;
+  border-radius: 8px 0px 0px 8px;
 }
 form button{
   border-radius: 0px 8px 8px 0px;
   border:none;
-  width:142px;
+  height: 55px;
   background: rgb(0, 106, 80);
 }
 .newsletter-note{
@@ -554,4 +555,8 @@ hr{
   justify-content: center;
   align-items: center;
   gap:22px
+}
+.footer-image{
+  width: 24px;
+  height: 21px;
 }
