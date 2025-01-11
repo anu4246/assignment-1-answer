@@ -436,7 +436,7 @@ th {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 24;
-  padding: 38px;
+  padding: 32px 43px 32px 43px;
   height: 100px;
   width: 210px;
   display: block;
@@ -448,7 +448,7 @@ th {
   background: rgb(255, 255, 255);
   color: rgba(14, 14, 14, 0.8);
   font-family: Fira Sans;
-  font-size: 27px;
+  font-size: 26px;
   font-weight: 700;
   line-height: 36px;
   text-align: left;
