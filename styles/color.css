@@ -7,7 +7,17 @@ nav{
     margin-left: 154px;
     margin-right: 154px;
     background-color:  rgb(245, 245, 245);
-    max-height: 100px;
+    max-height: 120px;
+
+}
+.nav-title{
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 .fira-sans-medium {
     font-family: "Fira Sans", serif;
@@ -51,11 +61,12 @@ nav{
   .banner-top-text{
     color: rgba(14, 14, 14, 0.5);
     font-family: Fira Sans;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
-    line-height: 28px;
+    line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+    margin-bottom: 0px;
   }
   .banner-main-text{
     color: rgb(14, 14, 14);
@@ -91,8 +102,68 @@ nav{
     justify-content: center;
     align-items: center;
     gap: 48;
-    padding: 15px 30px 15px 30px;
+    padding: 15px 26px 15px 26px;
     border:none;
   }
+.pillars{
+  margin-left: 154px;
+  margin-right: 154px;
+  margin-top:76px;
+}
 
-  
+  .pillar-box-container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .pillar-box{
+    background-color: #FFFFFF;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20;
+    padding: 21px;
+    height: 220px;
+    width: 275px;
+    display:block;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+  }
+
+.pillar-box-image{
+  width: 30px;
+  height: 35px;
+}
+.pillar-box-header{
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top:58px;
+  margin-bottom: 17px;
+  width: 210px;
+}
+.pillar-box-paragraph{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13px;
+  font-weight: 400;
+  gap: 12;
+  width: 210px;
+  height: 72px;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.section-header{
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: left;
+}
