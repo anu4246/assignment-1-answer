@@ -1,16 +1,15 @@
 /* styling nav */
 
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 154px;
-    margin-right: 154px;
-    background-color:  rgb(245, 245, 245);
-    max-height: 120px;
-
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 154px;
+  margin-right: 154px;
+  background-color: rgb(245, 245, 245);
+  max-height: 120px;
 }
-.nav-title{
+.nav-title {
   color: rgb(14, 14, 14);
   font-family: Fira Sans;
   font-size: 24px;
@@ -20,121 +19,126 @@ nav{
   text-align: left;
 }
 .fira-sans-medium {
-    font-family: "Fira Sans", serif;
-    font-weight: 500;
-    font-style: normal;
-    background-color: rgb(245, 245, 245);
-  }
-  .btn-1{
-    box-sizing: border-box;
-    border: 1px solid rgb(0, 106, 80);
-    border-radius: 8px;
-    width: 95px;
-    height: 42px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 14px 26px 14px 26px;
-    color: rgb(0, 106, 80);
-    font-family: Fira Sans;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 19px;
-    letter-spacing: 0%;
-    text-align: left;
-    fill: 1px	Inside
-    rgb(0, 106, 80);
-  }
-  .banner{
-    background-color: #C6E4D6;
-    margin-left: 154px;
-    margin-right: 154px;
-    display: flex;
-    align-items: center;
-    border-radius: 24px;
-    max-height: 543px;
-    gap:64;
-    padding: 68px 90px 68px 90px;
-  }
-
-  .banner-top-text{
-    color: rgba(14, 14, 14, 0.5);
-    font-family: Fira Sans;
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-bottom: 0px;
-  }
-  .banner-main-text{
-    color: rgb(14, 14, 14);
-    font-family: Fira Sans;
-    font-size: 51px;
-    font-weight: 700;
-    line-height: 45px;
-    letter-spacing: 0%;
-    text-align: left;
-  }
-
-  .banner-image{
-    width: 455px;
-    height: 316.21px;
-    padding-bottom: 80px;
-  }
-
-  .banner-button{
-    border-radius: 8px;
-    background: rgb(0, 106, 80);
-    color: rgb(255, 255, 255);
-    font-family: Fira Sans;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 20px;
-    letter-spacing: 0%;
-    text-align: left;
-    position: static;
-    width: 260px;
-    height: 53px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 48;
-    padding: 15px 26px 15px 26px;
-    border:none;
-  }
-.pillars,.vision,.opinions{
+  font-family: "Fira Sans", serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: rgb(245, 245, 245);
+}
+.btn-1 {
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 8px;
+  width: 95px;
+  height: 42px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 26px 14px 26px;
+  color: rgb(0, 106, 80);
+  font-family: Fira Sans;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  fill: 1px Inside rgb(0, 106, 80);
+}
+.banner {
+  background-color: #c6e4d6;
   margin-left: 154px;
   margin-right: 154px;
-  margin-top:76px;
+  display: flex;
+  align-items: center;
+  border-radius: 24px;
+  max-height: 543px;
+  gap: 64;
+  padding: 68px 90px 68px 90px;
 }
 
-  .pillar-box-container,.vision-box-container{
-    display: flex;
-    justify-content: space-between;
-  }
-  .pillar-box{
-    background-color: #FFFFFF;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 20;
-    padding: 21px;
-    height: 220px;
-    width: 277px;
-    display:block;
-    box-sizing: border-box;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 16px;
-    background: rgb(255, 255, 255);
-  }
+.banner-top-text {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: Fira Sans;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 0px;
+}
+.banner-main-text {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0%;
+  text-align: left;
+}
 
-.pillar-box-image ,.vision-box-image{
+.banner-image {
+  width: 455px;
+  height: 316.21px;
+  padding-bottom: 80px;
+}
+
+.banner-button {
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  position: static;
+  width: 260px;
+  height: 53px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 48;
+  padding: 15px 26px 15px 26px;
+  border: none;
+}
+.pillars,
+.vision,
+.opinions,.news,.donation {
+  margin-left: 154px;
+  margin-right: 154px;
+  margin-top: 76px;
+}
+
+.pillar-box-container,
+.vision-box-container {
+  display: flex;
+  justify-content: space-between;
+}
+.pillar-box {
+  background-color: #ffffff;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20;
+  padding: 21px;
+  height: 220px;
+  width: 277px;
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
+.pillar-box-image,
+.vision-box-image {
   width: 30px;
   height: 35px;
 }
-.pillar-box-header,.vision-box-header,.comment-name{
+.pillar-box-header,
+.vision-box-header,
+.comment-name {
   color: rgba(14, 14, 14, 0.8);
   font-family: Fira Sans;
   font-size: 15px;
@@ -142,14 +146,14 @@ nav{
   line-height: 17px;
   letter-spacing: 0%;
   text-align: left;
-  margin-top:65px;
+  margin-top: 65px;
   margin-bottom: 16px;
   width: 210px;
 }
-.comment-name{
+.comment-name {
   margin-bottom: 6px;
 }
-.pillar-box-paragraph{
+.pillar-box-paragraph {
   color: rgba(14, 14, 14, 0.7);
   font-family: Fira Sans;
   font-size: 13px;
@@ -161,7 +165,7 @@ nav{
   letter-spacing: 0%;
   text-align: left;
 }
-.section-header{
+.section-header {
   color: rgb(14, 14, 14);
   font-family: Fira Sans;
   font-size: 35px;
@@ -170,7 +174,10 @@ nav{
   letter-spacing: 0%;
   text-align: left;
 }
-.vision-box-paragraph,.comment-paragraph,.comment-details{
+.vision-box-paragraph,
+.comment-paragraph,
+.comment-details,
+.news-paragraph {
   font-family: Fira Sans;
   font-size: 13px;
   font-weight: 400;
@@ -180,18 +187,23 @@ nav{
   text-align: left;
   margin-bottom: 3px;
 }
-.vision-box-paragraph{
-color: rgba(14, 14, 14, 0.7);
+.news-paragraph {
+  color: rgba(14, 14, 14, 0.7);
 }
-.comment-paragraph{
+.vision-box-paragraph {
+  color: rgba(14, 14, 14, 0.7);
+}
+.comment-paragraph {
   color: rgba(14, 14, 14, 0.8);
 }
-.comment-details{
+.comment-details {
   color: rgba(14, 14, 14, 0.6);
   margin-top: 2px;
 }
 
-.vision-box1,.vision-box2,.vision-box3{
+.vision-box1,
+.vision-box2,
+.vision-box3 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -200,21 +212,24 @@ color: rgba(14, 14, 14, 0.7);
   padding: 30px;
   height: 295px;
   width: 377px;
-  display:block;
+  display: block;
   box-sizing: border-box;
   border-radius: 16px;
   margin-top: 30px;
 }
-.vision-box1{
+.vision-box1 {
   background-color: rgb(84, 144, 245, 0.2);
 }
-.vision-box2{
-  background-color: rgb(198, 228, 214);;
+.vision-box2 {
+  background-color: rgb(198, 228, 214);
 }
-.vision-box3{
+.vision-box3 {
   background-color: rgb(247, 235, 207);
 }
-.vision-box-button-1,.vision-box-button-3,.vision-box-button-2{
+.vision-box-button-1,
+.vision-box-button-3,
+.news-button-text,
+.vision-box-button-2 {
   color: rgb(255, 255, 255);
   font-family: Fira Sans;
   font-size: 14px;
@@ -231,25 +246,30 @@ color: rgba(14, 14, 14, 0.7);
   gap: 48;
   border-radius: 8px;
   padding: 11px 20px 11px 20px;
-  border:none;
+  border: none;
 }
-.vision-box-button-1{
+.news-button-text {
+  background: rgb(0, 106, 80);
+}
+.vision-box-button-1 {
   background: rgb(84, 144, 245);
 }
-.vision-box-button-2{
-  background: rgb(9, 161, 92);;
+.vision-box-button-2 {
+  background: rgb(9, 161, 92);
 }
-.vision-box-button-3{
-  background: rgb(255, 194, 57);;
+.vision-box-button-3 {
+  background: rgb(255, 194, 57);
 }
-#short-paragraph-1,#short-paragraph-2,#short-paragraph-3{
+#short-paragraph-1,
+#short-paragraph-2,
+#short-paragraph-3 {
   width: 295px;
   height: 72px;
 }
-.comment{
+.comment {
   margin-left: 154px;
-  margin-right: 154px; 
-  margin-top:76px;
+  margin-right: 154px;
+  margin-top: 76px;
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
@@ -259,47 +279,49 @@ color: rgba(14, 14, 14, 0.7);
   height: 215px;
   padding: 23px 20px 42px 20px;
 }
-.comment-paragraph{
+.comment-paragraph {
   background: none;
   width: 1180px;
   height: 11px;
 }
-.opinion-table-header{
-  background-color: #C6E4D6;
+.opinion-table-header {
+  background-color: #c6e4d6;
 }
-tr>th>ul>li{
+tr > th > ul > li {
   list-style: none;
-  padding:18px;
+  padding: 18px;
 }
-tr>th>ul{
+tr > th > ul {
   display: flex;
   justify-content: space-between;
   margin-right: 27px;
   margin-bottom: 2px;
   margin-top: 2px;
 }
-.table1{
+.table1 {
   border-radius: 16px;
   height: 330px;
   background: rgb(255, 255, 255);
   padding: 24px;
 }
-.opinion-table{
+.opinion-table {
   border: 1px solid rgba(14, 14, 14, 0.15);
   width: 1150px;
   height: 70px;
 }
-table, tr, td {
+table,
+tr,
+td {
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-collapse: collapse;
 }
-td{
+td {
   padding: 22px;
 }
-th{
+th {
   padding: 10px;
 }
-.opinion-table-header{
+.opinion-table-header {
   color: rgb(14, 14, 14);
   font-family: Fira Sans;
   font-size: 19px;
@@ -309,7 +331,7 @@ th{
   text-align: left;
   height: 10px;
 }
-.form{
+.form {
   box-sizing: border-box;
   border: 1px solid rgb(14, 14, 14);
   border-radius: 4px;
@@ -321,12 +343,127 @@ th{
   align-items: center;
   gap: 12;
   padding: 10px 14px 10px 14px;
-  margin-left:39px;
+  margin-left: 39px;
   background: #c6e4d6;
- font-family: Fira Sans;
- font-size: 14px;
- font-weight: 500;
- line-height: 15px;
- letter-spacing: 0%;
- text-align: left;
+  font-family: Fira Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.news-timedate {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.news-time{
+  margin-left: 4px;
+}
+
+.news-box {
+  display: flex;
+  height: 290px;
+  padding: 50px;
+  margin: 23px 0px;
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+}
+.news-image-earth{
+  border-radius: 24px;
+  margin-right: 30px;
+  width: 395px;
+height: 296px;
+}
+.news-box-paragraph{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+width: 670px;
+height: 69px;
+}
+.donation-paragraph{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+width: 1035px;
+height: 48px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 24;
+padding: 0px;
+margin-left: 80px;
+}
+.section-header-donation{
+  text-align: center;
+  margin-bottom: 23px;
+  color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 37px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0%;
+text-align: center;
+}
+.donation-button-containers{
+  display: flex;
+  gap: 24;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 112px;
+  margin-right: 112px;
+}
+.donation-button{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24;
+  padding: 38px;
+  height: 100px;
+  width: 210px;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 16px;
+  margin-top: 30px;
+  box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 27px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+}
+#select-button{
+background: rgb(198, 228, 214);
+}
+.ammount{
+  box-sizing: border-box;
+border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+width: 1023px;
+height: 60px;
+align-items: center;
+gap: 24;
+padding: 20px 40px 20px 40px;
+margin-top: 31px;
+text-align: center;
+margin-left:100px;
 }
