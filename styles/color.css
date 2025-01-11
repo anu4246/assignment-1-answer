@@ -134,7 +134,7 @@ nav{
   width: 30px;
   height: 35px;
 }
-.pillar-box-header,.vision-box-header{
+.pillar-box-header,.vision-box-header,.comment-name{
   color: rgba(14, 14, 14, 0.8);
   font-family: Fira Sans;
   font-size: 15px;
@@ -145,6 +145,9 @@ nav{
   margin-top:65px;
   margin-bottom: 16px;
   width: 210px;
+}
+.comment-name{
+  margin-bottom: 6px;
 }
 .pillar-box-paragraph{
   color: rgba(14, 14, 14, 0.7);
@@ -167,8 +170,7 @@ nav{
   letter-spacing: 0%;
   text-align: left;
 }
-.vision-box-paragraph{
-  color: rgba(14, 14, 14, 0.7);
+.vision-box-paragraph,.comment-paragraph,.comment-details{
   font-family: Fira Sans;
   font-size: 13px;
   font-weight: 400;
@@ -177,6 +179,16 @@ nav{
   letter-spacing: 0%;
   text-align: left;
   margin-bottom: 3px;
+}
+.vision-box-paragraph{
+color: rgba(14, 14, 14, 0.7);
+}
+.comment-paragraph{
+  color: rgba(14, 14, 14, 0.8);
+}
+.comment-details{
+  color: rgba(14, 14, 14, 0.6);
+  margin-top: 2px;
 }
 
 .vision-box1,.vision-box2,.vision-box3{
@@ -233,4 +245,22 @@ nav{
 #short-paragraph-1,#short-paragraph-2,#short-paragraph-3{
   width: 295px;
   height: 72px;
+}
+.comment{
+  margin-left: 154px;
+  margin-right: 154px; 
+  margin-top:76px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  height: 215px;
+  padding: 23px 20px 42px 20px;
+}
+.comment-paragraph{
+  background: none;
+  width: 1180px;
+  height: 11px;
 }
